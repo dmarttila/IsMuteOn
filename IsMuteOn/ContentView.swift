@@ -3,7 +3,7 @@
 //  IsMuteOn
 //
 //  Created by Doug Marttila on 12/21/21.
-//
+//  The bell sound is included in case you want to test or understand what's going on.
 
 import SwiftUI
 

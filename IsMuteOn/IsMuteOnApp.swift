@@ -2,7 +2,7 @@
 //  IsMuteOnApp.swift
 //  IsMuteOn
 //
-//  Created by Douglas Marttila on 12/21/21.
+//  Created by Doug Marttila on 12/21/21.
 //
 
 import SwiftUI

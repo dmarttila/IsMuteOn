@@ -5,8 +5,11 @@
 //  Created by Doug Marttila on 12/22/21.
 //  System sound creation and playing from: https://www.rockhoppertech.com/blog/apple-system-sounds/
 //  Mute check idea from: https://github.com/akramhussein/Mute
+
 //  Play a 1/10th second of silence and time how long it takes. If it takes less than 1/10th second, mute is on. (If the mute button is on when a system sound is triggered iOS doesn't play anything.) This only works for system sounds. AVAudioPlayer will play a sound silently if mute is on.
-//  How this can fail: The user could change the mute setting while the silent sound is playing (It's easier to observe this failure if you use the bell sound rather than the oneTenthSecond sound)
+//  How this can fail:
+//  The user could change the mute setting while the silent sound is playing (It's easier to observe this failure if you use the bell sound rather than the oneTenthSecond sound)
+//  Maybe if there's a lot going on in the app the timing check might not work. 
 //  Will Apple approve this? Don't know
 //  Doesn't seem to be an easy way to simulate mute in the simulator, so you need to use a device
 
